@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | CCS</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav id="mainNav">
+    <div class="nav-container">
+        <a href="index.html" class="logo">CCS</a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="programs.html" class="nav-link">Programs</a></li>
+            <li><a href="faculty.html" class="nav-link">Faculty</a></li>
+            <li><a href="contact.html" class="nav-link active">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <section class="page-section active">
+        <h2>Contact Us</h2>
+
+        <form id="contactForm">
+            <input type="text" id="fullName" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <textarea id="message" placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+
+        <p id="successMessage" style="display:none;">Message sent successfully!</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2026 College of Computer Studies</p>
+</footer>
+
+<script src="js/contact.js"></script>
+</body>
+</html>
