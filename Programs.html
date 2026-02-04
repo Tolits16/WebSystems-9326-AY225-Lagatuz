@@ -1,23 +1,57 @@
-<section class="container">
-  <h2>Academic Programs</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programs | CCS</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
 
-  <div class="tabs">
-    <button class="tab-btn active" data-tab="bscs">BSCS</button>
-    <button class="tab-btn" data-tab="bsit">BSIT</button>
-    <button class="tab-btn" data-tab="mscs">MSCS</button>
-  </div>
+<nav id="mainNav">
+    <div class="nav-container">
+        <a href="index.html" class="logo">CCS</a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="programs.html" class="nav-link active">Programs</a></li>
+            <li><a href="faculty.html" class="nav-link">Faculty</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+    </div>
+</nav>
 
-  <div id="bscs" class="tab-content active">
-    <p>Algorithms, AI, Software Engineering</p>
-  </div>
+<div class="container">
+    <section class="page-section active">
+        <h2>Academic Programs</h2>
 
-  <div id="bsit" class="tab-content">
-    <p>Networking, Cloud Computing</p>
-  </div>
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="bscs">BSCS</button>
+            <button class="tab-btn" data-tab="bsit">BSIT</button>
+            <button class="tab-btn" data-tab="bsis">BSIS</button>
+        </div>
 
-  <div id="mscs" class="tab-content">
-    <p>Advanced AI and Data Science</p>
-  </div>
-</section>
+        <div id="bscs" class="tab-content active">
+            <h3>BS Computer Science</h3>
+            <p>Focuses on algorithms, software development, and AI.</p>
+        </div>
 
-<script src="js/main.js"></script>
+        <div id="bsit" class="tab-content">
+            <h3>BS Information Technology</h3>
+            <p>Focuses on IT infrastructure and systems.</p>
+        </div>
+
+        <div id="bsis" class="tab-content">
+            <h3>BS Information Systems</h3>
+            <p>Bridges technology and business.</p>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2026 College of Computer Studies</p>
+</footer>
+
+<script src="js/programs.js"></script>
+</body>
+</html>
