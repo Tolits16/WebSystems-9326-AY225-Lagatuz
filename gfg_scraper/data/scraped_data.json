@@ -1,0 +1,159 @@
+[
+  {
+    "topic_title": "HTML Tutorial",
+    "difficulty_level": "Not Available",
+    "key_concepts": "HTML (HyperText Markup Language) is the core language used to structure and display content on the web, defining elements like text, images, links, and page layout so browsers can render websites properly.",
+    "code_snippet": "Not Available",
+    "complexity": "Not Available",
+    "references": [
+      {
+        "label": "Attributes Reference",
+        "url": "https://www.geeksforgeeks.org/html/html-attributes-complete-reference/"
+      },
+      {
+        "label": "Global Attributes Reference",
+        "url": "https://www.geeksforgeeks.org/html/html-global-attributes/"
+      },
+      {
+        "label": "Event Attributes Reference",
+        "url": "https://www.geeksforgeeks.org/html/html-event-attributes/"
+      },
+      {
+        "label": "DOM Reference",
+        "url": "https://www.geeksforgeeks.org/html/html-dom-complete-reference/"
+      },
+      {
+        "label": "DOM Audio/Videos Reference",
+        "url": "https://www.geeksforgeeks.org/html/html-dom-audio-video-complete-reference/"
+      },
+      {
+        "label": "HTML5 Reference",
+        "url": "https://www.geeksforgeeks.org/html/html5-complete-reference/"
+      }
+    ],
+    "url": "https://www.geeksforgeeks.org/html-tutorial/",
+    "slug": "html",
+    "scraped_at": "2026-03-18T03:53:32.160407"
+  },
+  {
+    "topic_title": "CSS Tutorial",
+    "difficulty_level": "Not Available",
+    "key_concepts": "CSS stands for Cascading Style Sheets. It is a stylesheet language used to style and enhance website presentation. CSS is one of the three main components of a webpage, along with HTML and JavaScript.",
+    "code_snippet": "Not Available",
+    "complexity": "Not Available",
+    "references": [],
+    "url": "https://www.geeksforgeeks.org/css-tutorial/",
+    "slug": "css",
+    "scraped_at": "2026-03-18T03:53:34.695085"
+  },
+  {
+    "topic_title": "JavaScript Tutorial",
+    "difficulty_level": "Not Available",
+    "key_concepts": "JavaScript is a programming language used to create dynamic content for websites. It is a lightweight, cross-platform, and single-threaded programming language. It's an interpreted language that executes code line by line, providing more flexibility.",
+    "code_snippet": "Not Available",
+    "complexity": "Not Available",
+    "references": [],
+    "url": "https://www.geeksforgeeks.org/javascript-tutorial/",
+    "slug": "javascript",
+    "scraped_at": "2026-03-18T03:53:37.155827"
+  },
+  {
+    "topic_title": "HTTP  - Hypertext Transfer Protocol",
+    "difficulty_level": "Not Available",
+    "key_concepts": "HTTP stands for Hypertext Transfer Protocol, and it’s the system that allows communication between web browsers (like Google Chrome or Firefox) andweb servers.",
+    "code_snippet": "Not Available",
+    "complexity": "Not Available",
+    "references": [],
+    "url": "https://www.geeksforgeeks.org/http-full-form/",
+    "slug": "http",
+    "scraped_at": "2026-03-18T03:53:39.640961"
+  },
+  {
+    "topic_title": "Domain Name System (DNS)",
+    "difficulty_level": "Not Available",
+    "key_concepts": "The Domain Name System (DNS) is a hierarchical and distributed naming system that translates human-readable domain names into IP addresses, enabling users to access websites easily.",
+    "code_snippet": "Not Available",
+    "complexity": "Not Available",
+    "references": [],
+    "url": "https://www.geeksforgeeks.org/domain-name-system-dns-in-application-layer/",
+    "slug": "dns",
+    "scraped_at": "2026-03-18T03:53:42.209945"
+  },
+  {
+    "topic_title": "REST API Introduction",
+    "difficulty_level": "Not Available",
+    "key_concepts": "A REST API (Representational State Transfer API) enables communication between client and server over HTTP. It exchanges data typically in JSON format using standard web protocols.",
+    "code_snippet": "// Import the Express module\nconst express = require('express');\nconst app = express();\nconst port = 3000;\n\napp.use(express.json());\n\n// Define a route for GET requests\napp.get('/users', (req, res) => {\n    res.json({ message: 'Returning list of users' });\n});\n\n// Define a route for POST requests\napp.post('/users', (req, res) => {\n    const newUser = req.body;\n    res.json({ message: 'User created', user: newUser });\n});\n\n// Define a route for PUT requests\napp.put('/users/:id', (req, res) => {\n    const userId = req.params.id;\n    const updatedUser = req.body;\n    res.json({ message: `User with ID ${userId} updated`, updatedUser });\n});\n\n// Define a route for DELETE requests\napp.delete('/users/:id', (req, res) => {\n    const userId = req.params.id;\n    res.json({ message: `User with ID ${u",
+    "complexity": "Not Available",
+    "references": [],
+    "url": "https://www.geeksforgeeks.org/rest-api-introduction/",
+    "slug": "rest-api",
+    "scraped_at": "2026-03-18T03:53:44.734524"
+  },
+  {
+    "topic_title": "Not Available",
+    "difficulty_level": "Not Available",
+    "key_concepts": "Not Available",
+    "code_snippet": "Not Available",
+    "complexity": "Not Available",
+    "references": [],
+    "url": "https://www.geeksforgeeks.org/web-cookies/",
+    "slug": "web-cookies",
+    "scraped_at": "2026-03-18T03:53:47.234848"
+  },
+  {
+    "topic_title": "TCP/IP Model",
+    "difficulty_level": "Not Available",
+    "key_concepts": "The TCP/IP model is a layered networking framework that explains how data is communicated between devices over a network using standardized protocols to ensure reliable and efficient transmission.",
+    "code_snippet": "Not Available",
+    "complexity": "Limited Multimedia Support:Original design focused on data, not optimized for real-time audio/video (needs extra protocols).",
+    "references": [],
+    "url": "https://www.geeksforgeeks.org/tcp-ip-model/",
+    "slug": "tcp-ip",
+    "scraped_at": "2026-03-18T03:53:49.681322"
+  },
+  {
+    "topic_title": "Responsive Web Design",
+    "difficulty_level": "Not Available",
+    "key_concepts": "Responsive Web Design ensures websites automatically adapt to different screen sizes, providing a smooth and user-friendly experience across all devices.",
+    "code_snippet": "Not Available",
+    "complexity": "Google AI Studio (Voe2): Best Practices, Use Cases, Features5min read",
+    "references": [],
+    "url": "https://www.geeksforgeeks.org/responsive-web-design/",
+    "slug": "responsive-design",
+    "scraped_at": "2026-03-18T03:53:52.173628"
+  },
+  {
+    "topic_title": "JSON Tutorial",
+    "difficulty_level": "Not Available",
+    "key_concepts": "JSON (JavaScript Object Notation) is a widely-used, lightweight data format for representing structured data.",
+    "code_snippet": "#include <iostream>\n#include <string>\n#include <nlohmann/json.hpp>\nusing namespace std;\n\nusing json = nlohmann::json;\n\nint main() {\n    string json_s = R\"({\"name\": \"Mohit\", \"age\": 30})\";\n    json obj = json::parse(json_s);\n    string name = obj[\"name\"];\n    int age = obj[\"age\"];\n    cout << \"Name: \" << name << \", Age: \" << age << endl;\n    return 0;\n}",
+    "complexity": "Not Available",
+    "references": [],
+    "url": "https://www.geeksforgeeks.org/javascript-json/",
+    "slug": "json",
+    "scraped_at": "2026-03-18T03:53:54.824995"
+  },
+  {
+    "topic_title": "Ajax Introduction",
+    "difficulty_level": "Not Available",
+    "key_concepts": "Ajax (Asynchronous JavaScript and XML)is a powerful technique used inweb developmentto enhance user experience by allowing pages to be updatedasynchronously, without the need to refresh the entire page. This results in faster load times and moredynamic content,improving theoverall functionalityand responsiveness ofweb applications.",
+    "code_snippet": "req.open('POST', 'file-url', true);\nreq.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');\nreq.send('name=value');",
+    "complexity": "Not Available",
+    "references": [],
+    "url": "https://www.geeksforgeeks.org/ajax-introduction/",
+    "slug": "ajax",
+    "scraped_at": "2026-03-18T03:53:57.463380"
+  },
+  {
+    "topic_title": "WebSocket and Its Difference from HTTP",
+    "difficulty_level": "Not Available",
+    "key_concepts": "HTTP and WebSocket are both ways for computers to talk to each other, but they work in different ways. HTTP is used for simple requests, like when you load a webpage, where the computer sends a request and the server replies, then the connection is closed. WebSocket keeps the connection open, allowing for real-time, two-way communication, making it great for things like live chats or online games where constant updates are needed.",
+    "code_snippet": "Not Available",
+    "complexity": "Not Available",
+    "references": [],
+    "url": "https://www.geeksforgeeks.org/what-is-web-socket-and-how-it-is-different-from-the-http/",
+    "slug": "websocket",
+    "scraped_at": "2026-03-18T03:53:59.950186"
+  }
+]

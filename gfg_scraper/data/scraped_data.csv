@@ -1,0 +1,57 @@
+topic_title,difficulty_level,key_concepts,code_snippet,complexity,url,scraped_at
+HTML Tutorial,Not Available,"HTML (HyperText Markup Language) is the core language used to structure and display content on the web, defining elements like text, images, links, and page layout so browsers can render websites properly.",Not Available,Not Available,https://www.geeksforgeeks.org/html-tutorial/,2026-03-18T03:53:32.160407
+CSS Tutorial,Not Available,"CSS stands for Cascading Style Sheets. It is a stylesheet language used to style and enhance website presentation. CSS is one of the three main components of a webpage, along with HTML and JavaScript.",Not Available,Not Available,https://www.geeksforgeeks.org/css-tutorial/,2026-03-18T03:53:34.695085
+JavaScript Tutorial,Not Available,"JavaScript is a programming language used to create dynamic content for websites. It is a lightweight, cross-platform, and single-threaded programming language. It's an interpreted language that executes code line by line, providing more flexibility.",Not Available,Not Available,https://www.geeksforgeeks.org/javascript-tutorial/,2026-03-18T03:53:37.155827
+HTTP  - Hypertext Transfer Protocol,Not Available,"HTTP stands for Hypertext Transfer Protocol, and it’s the system that allows communication between web browsers (like Google Chrome or Firefox) andweb servers.",Not Available,Not Available,https://www.geeksforgeeks.org/http-full-form/,2026-03-18T03:53:39.640961
+Domain Name System (DNS),Not Available,"The Domain Name System (DNS) is a hierarchical and distributed naming system that translates human-readable domain names into IP addresses, enabling users to access websites easily.",Not Available,Not Available,https://www.geeksforgeeks.org/domain-name-system-dns-in-application-layer/,2026-03-18T03:53:42.209945
+REST API Introduction,Not Available,A REST API (Representational State Transfer API) enables communication between client and server over HTTP. It exchanges data typically in JSON format using standard web protocols.,"// Import the Express module
+const express = require('express');
+const app = express();
+const port = 3000;
+
+app.use(express.json());
+
+// Define a route for GET requests
+app.get('/users', (req, res) => {
+    res.json({ message: 'Returning list of users' });
+});
+
+// Define a route for POST requests
+app.post('/users', (req, res) => {
+    const newUser = req.body;
+    res.json({ message: 'User created', user: newUser });
+});
+
+// Define a route for PUT requests
+app.put('/users/:id', (req, res) => {
+    const userId = req.params.id;
+    const updatedUser = req.body;
+    res.json({ message: `User with ID ${userId} updated`, updatedUser });
+});
+
+// Define a route for DELETE requests
+app.delete('/users/:id', (req, res) => {
+    const userId = req.params.id;
+    res.json({ message: `User with ID ${u",Not Available,https://www.geeksforgeeks.org/rest-api-introduction/,2026-03-18T03:53:44.734524
+Not Available,Not Available,Not Available,Not Available,Not Available,https://www.geeksforgeeks.org/web-cookies/,2026-03-18T03:53:47.234848
+TCP/IP Model,Not Available,The TCP/IP model is a layered networking framework that explains how data is communicated between devices over a network using standardized protocols to ensure reliable and efficient transmission.,Not Available,"Limited Multimedia Support:Original design focused on data, not optimized for real-time audio/video (needs extra protocols).",https://www.geeksforgeeks.org/tcp-ip-model/,2026-03-18T03:53:49.681322
+Responsive Web Design,Not Available,"Responsive Web Design ensures websites automatically adapt to different screen sizes, providing a smooth and user-friendly experience across all devices.",Not Available,"Google AI Studio (Voe2): Best Practices, Use Cases, Features5min read",https://www.geeksforgeeks.org/responsive-web-design/,2026-03-18T03:53:52.173628
+JSON Tutorial,Not Available,"JSON (JavaScript Object Notation) is a widely-used, lightweight data format for representing structured data.","#include <iostream>
+#include <string>
+#include <nlohmann/json.hpp>
+using namespace std;
+
+using json = nlohmann::json;
+
+int main() {
+    string json_s = R""({""name"": ""Mohit"", ""age"": 30})"";
+    json obj = json::parse(json_s);
+    string name = obj[""name""];
+    int age = obj[""age""];
+    cout << ""Name: "" << name << "", Age: "" << age << endl;
+    return 0;
+}",Not Available,https://www.geeksforgeeks.org/javascript-json/,2026-03-18T03:53:54.824995
+Ajax Introduction,Not Available,"Ajax (Asynchronous JavaScript and XML)is a powerful technique used inweb developmentto enhance user experience by allowing pages to be updatedasynchronously, without the need to refresh the entire page. This results in faster load times and moredynamic content,improving theoverall functionalityand responsiveness ofweb applications.","req.open('POST', 'file-url', true);
+req.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+req.send('name=value');",Not Available,https://www.geeksforgeeks.org/ajax-introduction/,2026-03-18T03:53:57.463380
+WebSocket and Its Difference from HTTP,Not Available,"HTTP and WebSocket are both ways for computers to talk to each other, but they work in different ways. HTTP is used for simple requests, like when you load a webpage, where the computer sends a request and the server replies, then the connection is closed. WebSocket keeps the connection open, allowing for real-time, two-way communication, making it great for things like live chats or online games where constant updates are needed.",Not Available,Not Available,https://www.geeksforgeeks.org/what-is-web-socket-and-how-it-is-different-from-the-http/,2026-03-18T03:53:59.950186
