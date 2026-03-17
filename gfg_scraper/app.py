@@ -40,8 +40,8 @@ from reportlab.lib.enums import TA_CENTER, TA_LEFT, TA_JUSTIFY
 # -- App setup
 app      = Flask(__name__)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, "data")   # JSON/CSV saved here
-PDF_DIR  = os.path.join(BASE_DIR, "pdfs")   # PDFs saved here
+DATA_DIR = os.path.join(BASE_DIR, "..", "json")
+PDF_DIR = os.path.join(BASE_DIR, "..", "pdfs")
 os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(PDF_DIR,  exist_ok=True)
 
@@ -526,7 +526,7 @@ def generate_pdf(articles, filename="learning_module.pdf"):
 
 @app.route("/")
 def index():
-    html_path = os.path.join(BASE_DIR, "templates", "index.html")
+html_path = os.path.join(BASE_DIR, "..", "html", "index.html")
     with open(html_path, encoding="utf-8") as f:
         return render_template_string(f.read())
 
